@@ -1,0 +1,6 @@
+"*":
+  core: {}
+  "exception-reporting":
+    userId: "1aae652f-57f0-4e33-a963-9e573a27e0a3"
+  "symbols-tree-view":
+    autoToggle: true

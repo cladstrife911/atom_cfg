@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/doxygen-snippets/versions/0.1.1/tarball",
+  "_id": "doxygen-snippets@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-VG8up6GIJ6+xSHGff4XgAaMGcI30eGLx0t5/3YAcYaRfElFdmrBdNYNgD1efCL8nPhTACQoWbO9ryVIcWJPIaw==",
+  "_location": "/doxygen-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/doxygen-snippets/versions/0.1.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/doxygen-snippets/versions/0.1.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/doxygen-snippets/versions/0.1.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/doxygen-snippets/versions/0.1.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/doxygen-snippets/versions/0.1.1/tarball",
+  "_shasum": "fbf0389de6ce3a3111c263528e4c2a3dd7802cfc",
+  "_spec": "https://www.atom.io/api/packages/doxygen-snippets/versions/0.1.1/tarball",
+  "_where": "C:\\Users\\amonmarc\\AppData\\Local\\Temp\\apm-install-dir-119128-13000-wn229i.lmvzc",
+  "bugs": {
+    "url": "https://github.com/omarsotillo/atom-doxygen-snippets/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Autocomplete snippets for Doxygen comments tool.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/omarsotillo/atom-doxygen-snippets#readme",
+  "keywords": [
+    "doxygen",
+    "doxygen-complete",
+    "snippets",
+    "doxygen-snippets"
+  ],
+  "license": "MIT",
+  "main": "./lib/doxygen-snippets",
+  "name": "doxygen-snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarsotillo/atom-doxygen-snippets.git"
+  },
+  "version": "0.1.1"
+}
