@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/formatter-astyle/versions/1.0.0/tarball",
+  "_id": "formatter-astyle@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-VozB92LxAq07UPWFrjSi4tFIMHcLC6Wsw0SEbA9/U8vi0b3drlY5cbVSybJsxVWYTsbBICpHM8KA/4Q2Wlb7Iw==",
+  "_location": "/formatter-astyle",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/formatter-astyle/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/formatter-astyle/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/formatter-astyle/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/formatter-astyle/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/formatter-astyle/versions/1.0.0/tarball",
+  "_shasum": "46b4799e53b4a7b6e649dd962769991c40d7b16b",
+  "_spec": "https://www.atom.io/api/packages/formatter-astyle/versions/1.0.0/tarball",
+  "_where": "C:\\Users\\amonmarc\\AppData\\Local\\Temp\\apm-install-dir-11947-28508-1b6rsv3.yjz5",
+  "bugs": {
+    "url": "https://github.com/janosimas/formatter-astyle/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Format C/C++/Obj-C using Artistic Style (astyle)",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/janosimas/formatter-astyle#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "formatter-astyle",
+  "providedServices": {
+    "formatter": {
+      "versions": {
+        "1.0.0": "provideFormatter"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janosimas/formatter-astyle.git"
+  },
+  "version": "1.0.0"
+}
