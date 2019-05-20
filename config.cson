@@ -1,6 +1,69 @@
 "*":
-  core: {}
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "autocomplete-plus"
+      "autocomplete-css"
+      "autocomplete-html"
+      "spell-check"
+      "formatter-astyle"
+      "formatter"
+      "language-coffee-script"
+      "language-clojure"
+      "language-csharp"
+      "language-css"
+      "language-gfm"
+      "language-go"
+      "language-html"
+      "language-less"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-property-list"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-rust-bundled"
+      "language-sass"
+      "language-sql"
+      "language-toml"
+      "language-yaml"
+      "markdown-preview"
+      "file-watcher"
+    ]
+    fileSystemWatcher: "poll"
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 12
+    preferredLineLength: 100
+    showInvisibles: true
   "exception-reporting":
     userId: "1aae652f-57f0-4e33-a963-9e573a27e0a3"
+  "file-watcher":
+    autoReload: true
+    includeCompareOption: false
+    promptWhenChange: true
+  "formatter-astyle":
+    CommmandLineOptions:
+      arguments: [
+        "--suffix=none --style=allman --indent=spaces=2 --indent-preproc-block --indent-switches --max-code-length=100 --pad-oper --pad-comma --add-brackets --align-pointer=name --align-reference=name --mode=c"
+      ]
+      executablePath: "C:\\VALEO\\AStyle\\astyle.exe"
+    FormattingOptions:
+      mode: "c"
+    TabOptions:
+      indentSize: 2
+      tabStyle: "spaces"
+  "goto-definition": {}
+  hyperclick:
+    win32TriggerKeys: "shiftKey,ctrlKey"
   "symbols-tree-view":
     autoToggle: true
+  welcome:
+    showOnStartup: false
